@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Tata from './Component/FormMovie.jsx';
+import Niceformbru from './Component/FormMovieV2';
 
 class App extends Component {
   
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <Tata />
+        <Niceformbru />
 
       </div>
     );

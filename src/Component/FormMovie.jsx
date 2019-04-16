@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Form } from 'reactstrap';
 
 class Tata extends Component {
   constructor(props) {
@@ -51,7 +52,7 @@ class Tata extends Component {
       <div className="FormEmployee">
         <h1>Mon film préféré</h1>
 
-        <form onSubmit={this.submitForm}>
+        <Form onSubmit={this.submitForm}>
           <fieldset>
             <legend>Mon film</legend>
             <div className="form-data">
@@ -91,7 +92,7 @@ class Tata extends Component {
               <input type="submit" value="Envoyer" />
             </div>
           </fieldset>
-        </form>
+        </Form>
       </div>
     )
   }
